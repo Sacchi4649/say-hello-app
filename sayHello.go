@@ -1,6 +1,6 @@
 package say_hello_app
 
-func SayHello() string {
+func SayHello(name string) string {
 
-	return "Hello Word!"
+	return "Hello " + name + "!"
 }
